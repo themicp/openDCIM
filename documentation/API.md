@@ -44,6 +44,9 @@ All GET endpoints reply with a JSON object that contains at least 2 fields:
 
 **Description**: Get the HTML representation of a device
 
+**Optional arguments**:
+* `rear`: If set, it will return the rear picture of the device
+
 **Returns**: 
 ```json
 {}

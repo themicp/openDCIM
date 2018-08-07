@@ -1,5 +1,9 @@
 ## API Endpoints v1
 
+All GET endpoints reply with a JSON object that contains at least 2 fields:
+* `error`: **false** in case of no error, the error description otherwise
+* `errorcode`: The HTTP status code sent from the endpoint
+
 ### `GET /api/v1/device`
 
 **Description**: All devices for which the user's rights have access to view
